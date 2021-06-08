@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*设置网页整体字体标尺*/
+html {
+    font-size: 10px;
+    height: 100%;
+    font-family: 微软雅黑,宋体,sans-serif;
+}
+
+body{
+    margin: 0 ;
+    height: 100%;
+    background-color: #e1ecfe;
+}
+
+
+/*全局变量*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*头部占位框*/
+.header{
+    height: 20px;
+    width: auto;
+}
+
+/*信息框*/
+.box_information{
+    width: 350px;
+    height: 170px;
+    margin: auto;
+    background-color: #20b1b4;
+    border-radius: .5em;
+    box-shadow: 0 10px 15px -10px cadetblue;
+}
+
+/*照片框*/
+.box_photo{
+    width: 130px;
+    height: 150px;
+    float: right;
+    background-color: aliceblue;
+    margin: 10px 10px 10px auto;
+}
+
+/*文字信息框*/
+.box_text{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 10px auto 10px 10px;
+}
+
+/*放置二维码处框*/
+#box_code{
+    width: 330px;
+    height: 330px;
+    margin: auto;
+    background-color: #fffdfd;
+    border-radius: .5em;
+}
+
+/*阴影效果*/
+.shadow{
+    height: 5px;
+    width: auto;
+    background-color: #d8e8e8;
+    margin-bottom: 20px;
+}
+
+/*二维码图*/
+#box_code #box_coding{
+    width: 290px;
+    height: 265px;
+    margin: auto;
+    /*background-image: url("../static/qrcode_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+
+/*日期框*/
+.box_date{
+    width: 260px;
+    height: 20px;
+    margin: auto;
+}
+
+/*提示信息框*/
+.box_tips{
+    width: 330px;
+    height: 40px;
+    margin: 30px auto auto auto;
+    text-align: center;
+}
+
+
+
+/*信息框字体颜色*/
+.name_text{
+    font-size: 2em;
+    color: #fff9ff;
+    margin-top: 10px;
+}
+
+.information_text{
+    font-size: 1.5em;
+    color: #fff9ff;
+    margin-top: 5px;
+}
+
+/*控制时间*/
+#txt{
+    color: #fe5039;
+    float: right;
+    font-size: 1.5em;
+}
+
+#year{
+    color: #fe5039;
+    float: left;
+    font-size: 1.5em;
+}
+
+/*跳动数字*/
+#box_num{
+    color: #ff4931;
+    padding-top: 96px;
+    padding-left: 70px;
+    font-size: 7em;
+    font-weight: 600;
+    -webkit-text-stroke: 2px #f6e816;
+    text-shadow: #793729 4px 4px;
+}
+
+/*提示样式*/
+.tips_style{
+    color: #70798a;
+    font-size: 1.23em;
+}
